@@ -18,8 +18,8 @@ pygame.init()
 screen = pygame.display.set_mode((600,600))
 pygame.display.set_caption('Snake')
 
-snake = [(200, 200), (210, 200), (220,200)]
-snake_skin = pygame.Surface((10,10))
+snake = [(300, 300), (310, 300), (320,300)]
+snake_skin = pygame.Surface((20,20))
 snake_skin.fill((255,255,255))
 
 apple_pos = on_grid_random()
